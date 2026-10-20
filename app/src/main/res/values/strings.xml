@@ -90,7 +90,7 @@
     <string name="menu_stream_updates_summary">Install updates while downloading. Disable to save update packages for export.</string>
     <string name="menu_delete_update">Delete</string>
     <string name="menu_export_update">Export update</string>
-    <string name="menu_changelog_url" translatable="false">https://download.lineageos.org/<xliff:g id="device_name">%1$s</xliff:g>/changes</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/Lunaris-AOSP/OTA/refs/heads/16.2/changelogs/<xliff:g id="device_name">%1$s</xliff:g>.txt</string>
     <string name="menu_view_downloads">View on <xliff:g id="brand_name" example="LunarisAOSP">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Metered network warning</string>
     <string name="menu_metered_network_warning_summary">Warn before downloading over mobile data</string>
@@ -117,7 +117,7 @@
     <string name="security_update">Security update</string>
     <string name="show_changelog">Recent changes</string>
     <string name="report_issues">Report issues</string>
-    <string name="report_issue_url" translatable="false">https://github.com/LunarisAOSP/issues/issues</string>
+    <string name="report_issue_url" translatable="false">https://github.com/Lunaris-AOSP/issue_tracker</string>
     <string name="header_review_updates">Review updates and recent changes on</string>
     <string name="header_download_url" translatable="false">download.lineageos.org</string>
     <string name="found_bug">Found a bug? Report it with our bug report guide:</string>
@@ -197,4 +197,19 @@
     <string name="updater_link_forum">Forum</string>
     <string name="updater_build_unofficial">Unofficial</string>
     <string name="updater_maintainer_by">by <xliff:g id="maintainer" example="Ghosuto">%1$s</xliff:g></string>
+    <string name="navigate_back">Back</string>
+    <string name="updater_installed_version">Installed version</string>
+    <string name="updater_updates">Updates</string>
+    <string name="updater_updates_summary">Keep your device up to date.</string>
+    <string name="updater_tools">Manage updates</string>
+    <string name="updater_community">Community</string>
+    <string name="updater_available_builds">Available builds</string>
+    <string name="updater_preferences_title">Update preferences</string>
+    <string name="updater_preferences_description">Choose how your device checks for and installs updates.</string>
+    <string name="updater_never_checked">No checks yet</string>
+    <string name="updater_expand_update">Show update details</string>
+    <string name="updater_collapse_update">Hide update details</string>
+    <string name="updater_expanded">Expanded</string>
+    <string name="updater_collapsed">Collapsed</string>
+    <string name="updater_more_actions">More update actions</string>
 </resources>
